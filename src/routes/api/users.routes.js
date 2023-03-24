@@ -10,7 +10,7 @@ user.get("/user/allUser", validateRol, controller.getAllUserController)
 
 user.post("/user/create", controller.postUserPostmanController)
 
-user.get("/user/:id", controller.findUserController)
+user.get("/user/:id", validateRol, controller.findUserController)
 
 user.post("/user/login", controller.loginUserControllers)
 
