@@ -6,15 +6,15 @@ const user = Router()
 
 
 
-user.get("/api/user/allUser", validateRol, controller.getAllUserController)
+user.get("/user/allUser", validateRol, controller.getAllUserController)
 
-user.post("/api/user/create", controller.postUserPostmanController)
+user.post("/user/create", controller.postUserPostmanController)
 
-user.get("/api/user/:id", controller.findUserController)
+user.get("/user/:id", controller.findUserController)
 
-user.post("/api/user/login", controller.loginUserControllers)
+user.post("/user/login", controller.loginUserControllers)
 
-user.put("/api/user/update", validateToken, controller.updateUserControllers)
+user.put("/user/update", validateToken, controller.updateUserControllers)
 
 
 export default user
