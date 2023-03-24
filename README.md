@@ -26,8 +26,8 @@ Cuenta con 5 Rutas.
 
 Para la peticion de usuarios, se requiere un rol de administrado, acualmente el rol se cambia a partir de la variable de entorno. 
 La variable de entorno a tener en cuenta es la siguiente: rol = "ADMIN" 
-_Ruta Get_ ("/api/user/allUser")
-=>Devuelve todos los usuarios de la base de datos, solo si tiene el rol de
+
+_Ruta Get_ ("/api/user/allUser") =>Devuelve todos los usuarios de la base de datos, solo si tiene el rol de
 Administrador.
 
 # Peticion de usuario por ID
