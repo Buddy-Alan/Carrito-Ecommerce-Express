@@ -43,9 +43,8 @@ datos a mandar por postamn son: { "name": String, "lastname": String,
 
 # Login de usuario para obtener un token
 
-_Ruta Post_ ("/api/user/login") => Se utiliza para simular un logueo y que envie
-un token para posteriormente poder trbajar con el resto de las rutas. Datos a
-enviar: { "email": String, "password": String }
+_Ruta Post_ ("/api/user/login") => Se utiliza para simular un logueo y que envie un token para posteriormente poder trbajar con el resto de las rutas. 
+Datos a enviar: { "email": String, "password": String }
 
 # Update de datos de usuario
 
