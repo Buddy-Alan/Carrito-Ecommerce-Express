@@ -44,15 +44,14 @@ Datos a enviar: { "email": String, "password": String }
 
 # Actualizacion de datos de usuario
 
-Ruta Put("/api/user/update") => Se envian los datos que el usuario requiere actualizar, es importante tener el token para poder trabajar. Se pueden actualizar los siguientes datos: { "name": String, "lastname": String, "edad": String, "password": String }
+_Ruta Put_("/api/user/update") => Se envian los datos que el usuario requiere actualizar, es importante tener el token para poder trabajar. Se pueden actualizar los siguientes datos: { "name": String, "lastname": String, "edad": String, "password": String }
 
 ## Porductos.
 
 Cuenta con 4 Rutas
 
-#Creacion de productos _Ruta Post_("/api/products") => Se envian los siguientes
-datos para crear un producto: { "title": String, "price": Int, "thumbnail":
-String, "descripcion": String, "stock": Int, "codigo": String }
+# Creacion de productos 
+_Ruta Post_("/api/products") => Se envian los siguientes datos para crear un producto: { "title": String, "price": Int, "thumbnail": String, "descripcion": String, "stock": Int, "codigo": String }
 
 # Peticion de productos.
 
