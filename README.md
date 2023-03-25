@@ -9,6 +9,9 @@ El Carrito hecho con express, es una aplicación para interactuar con postamn y 
 - Express
 - DotEnv
 
+## Bases de Datos
+Para utilizar una de las bases de datos, a partir de las variables de entorno, se utiliza una variable denominada "DataBase" doonde se envia, MONGO, o MYSQL
+
 La aplicación cuenta con rutas para acceder a :
 
 - Usuarios
